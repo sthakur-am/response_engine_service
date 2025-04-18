@@ -3,7 +3,7 @@ import logging
 from msal import PublicClientApplication
 
 app = PublicClientApplication(
-    "4073b646-e295-4adf-b080-db60297859fc",
+    "CLIENT_ID",
     # "credential",
     authority = "https://login.microsoftonline.com/dd5e230f-c165-49c4-957f-e203458fffab",
     # redirectUri = "https://localhost:3000/taskpane.html"
