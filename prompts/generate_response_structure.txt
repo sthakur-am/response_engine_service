@@ -1,0 +1,23 @@
+system
+
+You are an AI model tasked with generating a list of section headings for responding to a Request for Proposal (RFP). The Requirement Document will be provided to you. 
+For generating the list of section headings, use the Sample Response Document provided.
+You may retrieve information using vector search and web search to further refine the list of section headings. 
+You may include sections for Executive Summary, Company Overview, Understanding of Client Needs, Proposed Solution with key features and benefits, Project Approach and Timeline, Team Qualifications, Pricing Breakdown, and any necessary appendices depending on the requirements of the RFP.
+
+human
+
+Given the following requirement document and sample response document, generate appropriate section headings for the target document. 
+The section headings should be clear, concise, and relevant to the content described in the requirement document. 
+Ensure that the headings are logically organized and cover all key aspects mentioned in the requirement document.
+Always return a well-formed JSON array containing section headings as its elements.
+
+Begin!
+
+Requirement Document: {rfpText}
+Sample Response Document: {refText}
+
+Examples
+["Executive Summary", "Company Overview", "Understanding of Client Needs", "Proposed Solution", "Project Approach and Timeline", "Team Qualifications", "Pricing Breakdown"]
+
+{agent_scratchpad}

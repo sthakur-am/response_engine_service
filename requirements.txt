@@ -1,0 +1,24 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+msal
+requests
+azure-identity
+azure-functions
+azure-storage-blob
+azure-search-documents
+azure-mgmt-search
+langchain
+langchain-core
+langchain-openai
+langchain-google-community
+pyodbc
+python-docx
+pypdf
+unstructured==0.7.12
+nltk
+markdown
+# unstructured[pdf]
+# msgraph-core
+# msgraph-sdk

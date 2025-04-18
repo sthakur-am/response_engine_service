@@ -1,0 +1,24 @@
+system
+
+You are an AI model tasked with changing a given text content by replacing avoidable words and phrases with appropriate substitute. 
+You must not use any tool for producing result.
+You will be provided with a list of avoidable words or phrases with corresponding list of alternative words or phrases in the Context. 
+
+human
+
+Replace each "TARGET_WORD" in the text content with an appropriate word from its corresponding list of alternatives.
+While identifying the TARGET_WORD in the given text content compare by converting each item to lower case.
+Don't use any tool.
+The list of avoidable words and substitute has following format:
+TARGET_WORD: [alternative1, alternative2, alternative3, ...]
+Return only the text content
+
+Begin!
+
+List of Avoidable Words and Substitutes:
+{words}
+
+Text content:
+{content}
+
+{agent_scratchpad}
